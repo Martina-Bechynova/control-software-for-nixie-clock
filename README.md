@@ -12,36 +12,6 @@ The aim of this thesis is to create control software for a custom-made embedded 
 
 STM32WB, embedded system, control software, Bluetooth Low Energy, Generic Attribute Profile, Generic Access Profile, real-time clock
 
-## Structure
-
-The repository is split into 4 branches:
-
-- master
-- legacy
-- wb55cgux
-- wb35ceuxa
-
-### master
-
-The master branch holds the template folder, which has the following structure:
-
-- template
-  - Core
-    - Inc
-    - Src
-  - STM32_WPAN
-    - App
-
-The template folder holds helper files that should be copied into new STM32CubeIDE projects. All the folders belong in the IDE subfolders of the same name.
-
-### legacy
+## legacy Branch
 
 This branch holds the original STM32CubeIDE project that was used during development.
-
-### wb55cgux
-
-This branch holds a brand-new, cleaned-up STM32CubeIDE project for STM32WB55CGUX MCUs.
-
-### wb35ceuxa
-
-This branch holds a brand-new, cleaned-up STM32CubeIDE project for STM32WB35CEUXA MCUs.
